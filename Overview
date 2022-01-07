@@ -1,0 +1,13 @@
+# Football-Match-Prediction
+This project finds out how different statistics in football can determine the outcome of a game. The project focuses on the English Premier League and uses past data, feature selection and various machine learning algorithms to come up with a prediction model.
+The aim of this project is to understand which attributes of a team contribute to their overall
+success, and the importance of each attribute in doing so as well. Also, using a classification model,
+we have tried to predict the outcome of each game, given certain team attributes as input. The
+outcomes are multi-class and have been labeled as HOME (Home Team Wins), AWAY (Away Team
+Wins) and DRAW. We collected the data for our model through multiple disparate data sources,
+going through data from multiple English Premier League seasons along with looking at individual
+team statistics published by FIFA and merging them together in order to create our primary dataset.
+The model started off with data visualization, where we looked at each predictor and their skewness
+in order to determine whether the distribution in data would be detrimental to the accuracy of our
+model. We looked at collinearity and correlations between various predictors and integrated those
+into our model, which did not result in an overfitted model nor with a one with a very low accuracy.
